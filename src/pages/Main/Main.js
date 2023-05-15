@@ -169,7 +169,7 @@ function Main() {
             <div className="recomend">
               <img className="profileImg" src="image/puppy.png" />
               <div className="storyText">
-                <p className="bold">doggy_DOG</p>
+                <p className="bold">dogggy_DOG</p>
                 <p className="lightcolor">Rabbit.floor님 외 2명이...</p>
               </div>
               <button className="follow">팔로우</button>
