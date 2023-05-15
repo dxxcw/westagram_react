@@ -5,8 +5,8 @@ import "./Login.css";
 function Login() {
   return (
     <div className="Login">
-      <header>Westagram</header>
       <div className="inputBox">
+        <p className="westagram">Westagram</p>
         <input
           className="inputId"
           type={"text"}

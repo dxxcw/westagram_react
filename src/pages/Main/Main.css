@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   background-color: whitesmoke;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -19,6 +20,11 @@ header {
   background-color: white;
   top: 0;
   left: 0;
+}
+
+.page {
+  display: flex;
+  margin-top: 70px;
 }
 
 .logo {
@@ -63,13 +69,14 @@ header {
   border: 1px solid rgba(218, 217, 217, 0.767);
   background-color: transparent;
   position: relative;
+  font-size: 15px;
 }
 
 .searchBar img {
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
   margin-left: 75px;
-  margin-top: 8px;
+  margin-top: 12px;
   position: absolute;
 }
 
@@ -97,6 +104,7 @@ article {
 .top {
   height: 40px;
   border: 1px solid #ebecf0;
+  border-top: none;
   background-color: white;
   color: black;
   margin-top: 10px;
@@ -200,13 +208,20 @@ section {
   background-color: transparent;
 }
 
-.side-down {
-  margin-top: 20px;
+.sideDown {
+  margin-top: 15px;
   border: 1px solid lightgray;
   background-color: white;
 }
 
+/* .sideDown {
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  background-color: white;
+} */
+
 .feedRight {
+  float: right;
   margin-left: 20px;
   background-color: transparent;
 }
@@ -246,7 +261,8 @@ section {
 .feedRight .profileImg {
   width: 30px;
   height: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .top .profile {
@@ -264,7 +280,7 @@ section {
 
 .storyText {
   margin-top: -17px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .recomend {
@@ -315,6 +331,7 @@ section {
 
 .delLike {
   display: flex;
+  height: 100vh;
 }
 
 .delLike button {
@@ -341,6 +358,8 @@ section {
 }*/
 
 .send {
+  display: flex;
+  height: 40px;
   margin-left: 0px;
   width: 100%;
   border: none;
@@ -357,9 +376,12 @@ input::placeholder {
   font-size: 13px;
   color: black;
   border: none;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .submit {
+  width: 50px;
   color: cornflowerblue;
   background-color: white;
   border: none;
