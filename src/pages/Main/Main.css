@@ -37,10 +37,9 @@ header {
 .westagramLogo {
   font-family: "Lobster", cursive;
   font-size: 30px;
-  margin-top: -6px;
-
+  height: 30px;
+  padding-bottom: 10px;
   padding-left: 13px;
-
   border-left: 1px solid black;
 }
 
@@ -194,7 +193,7 @@ section {
 
 .lightcolor {
   font-size: 13px;
-  margin-top: -15px;
+
   color: darkgray;
 }
 
@@ -245,8 +244,6 @@ section {
 .storyTop {
   display: flex;
   justify-content: space-between;
-
-  margin-top: -10px;
 }
 
 .story img {
@@ -279,7 +276,6 @@ section {
 }
 
 .storyText {
-  margin-top: -17px;
   margin-left: 20px;
 }
 
