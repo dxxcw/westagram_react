@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import "./Main.css";
+import "./Main.scss";
 
 function Main() {
   return (
@@ -35,11 +35,6 @@ function Main() {
               alt="마이페이지"
               src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
             />
-            {/* <img
-            className="page"
-            alt="마이페이지"
-            src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
-          /> */}
           </div>
         </nav>
       </header>
@@ -197,9 +192,12 @@ function Main() {
             </div>
           </div>
           <footer className="footerWrap">
-            <p>
-              Instagram 정보 · 지원 · 홍보센터 · API · <br></br>
-            </p>
+            <div className="info">
+              <p>Instagram 정보 · 지원 · 홍보센터 · API · </p>
+              <p>채용정보 개인정보처리방침 · 약관 ·</p>
+              <p>디렉터리 · 프로필 · 해시태그 · 언어</p>
+            </div>
+            <p>ⓒ 2023 WESTAGRAM</p>
           </footer>
         </section>
       </div>
